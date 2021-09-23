@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+  cursor: grab;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 6px;
+  text-underline-offset: 10px;
+}
+
+.title {
+  position: fixed;
+  top: 32;
+  left: 32;
+  border-radius: 20px;
+}
+
+.text {
+  font-family: sans-serif;
+  font-size: 24px;
+  vertical-align: center;
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+
+.helper {
+  position: fixed;
+  bottom: 32;
+  color: rgb(73, 70, 70);
+  font-family: sans-serif;
+  font-size: 16px;
+  vertical-align: center;
+  margin: 8px 0;
+}
+
+canvas {
+  margin: -10px;
+  overflow: hidden;
+  vertical-align: bottom;
+}
